@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<typeInfoHistroy>
+<typeInfo handle="=11_Paging/C:\/java_sdk\/lib\/jrt-fs.jar`jdk.httpserver&lt;com.sun.net.httpserver(Authenticator.class[Authenticator" modifiers="1057" timestamp="1501735982000"/>
+<typeInfo handle="=11_Paging/C:\/apache-tomcat-8.5.56\/lib\/tomcat-websocket.jar&lt;org.apache.tomcat.websocket(Authenticator.class[Authenticator" modifiers="1057" timestamp="1591186792000"/>
+<typeInfo handle="=01_start/C:\/apache-tomcat-8.5.56\/lib\/servlet-api.jar&lt;javax.servlet.http(HttpServlet.class[HttpServlet" modifiers="1057" timestamp="1591186792000"/>
+</typeInfoHistroy>

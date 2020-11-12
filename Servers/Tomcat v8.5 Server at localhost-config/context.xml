@@ -1,0 +1,13 @@
+<Context>
+<WatchedResource>WEB-INF/web.xml</WatchedResource>
+<WatchedResource>${catalina.base}/conf/web.xml</WatchedResource>
+<Resource
+	 name ="jdbc/Oracle"
+	 auth = "Container"
+	 type = "javax.sql.DataSource"
+	 driverClassName = "oracle.jdbc.driver.OracleDriver"
+	 url = "jdbc:oracle:thin:@192.168.0.27:1521:xe"
+	 username = "C##WEB_USER"
+	 password = "pass"
+ />
+</Context>

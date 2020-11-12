@@ -1,0 +1,22 @@
+<web-app xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://xmlns.jcp.org/xml/ns/javaee" xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/javaee http://xmlns.jcp.org/xml/ns/javaee/web-app_3_1.xsd" id="WebApp_ID" version="3.1">
+<display-name>08_PhotoApp</display-name>
+<!--  오자마자 찾아야할 페이지 내역  -->
+<welcome-file-list>
+<welcome-file>index.html</welcome-file>
+<welcome-file>index.htm</welcome-file>
+<welcome-file>index.jsp</welcome-file>
+<welcome-file>default.html</welcome-file>
+<welcome-file>default.htm</welcome-file>
+<welcome-file>default.jsp</welcome-file>
+</welcome-file-list>
+<!--  404 에러 발생시 /error/404.jsp 로 이동  -->
+<error-page>
+<error-code>404</error-code>
+<location>/error/404.jsp</location>
+</error-page>
+<!--  특정한 Exception 발생시 /error 라는 요청을 보냄 -->
+<error-page>
+<exception-type>java.io.IOException</exception-type>
+<location>/error</location>
+</error-page>
+</web-app>
